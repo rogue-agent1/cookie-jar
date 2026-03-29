@@ -32,7 +32,6 @@ class CookieJar:
         return None
 
     def for_url(self, url):
-        from url_parse import URL as _  # avoid dep — inline parse
         # Simple domain extraction
         domain = url.split("://")[-1].split("/")[0].split(":")[0]
         path = "/" + url.split("://")[-1].split("/", 1)[-1] if "/" in url.split("://")[-1] else "/"
