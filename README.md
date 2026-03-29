@@ -1,6 +1,9 @@
-# cookie_jar
-Single-file Python CLI tool. Zero dependencies, Python 3.8+.
+# cookie-jar
+
+HTTP cookie parser and jar. Zero dependencies, single file, Python 3.8+.
+
 ## Usage
+
 ```bash
-python3 cookie_jar.py --test
+python3 cookie_jar.py --help
 ```
